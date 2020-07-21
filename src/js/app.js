@@ -24,3 +24,15 @@ searchForm.addEventListener("submit", function(event) {
 
 
 //show feedback
+
+function ajaxWiki(search) {
+    output.innerHTML = "";
+    loading.classList.add("showItem");
+  
+    const wikiURL = `${base}${url}${search}`;
+  
+    fetch(wikiURL)
+      .then(data => data.json())
+      .then(data => displayData(data))
+      .catch(e => console.log(e));
+  }
