@@ -6,6 +6,7 @@
 body {
   background: var(--mainWhite);
   color: var(--mainDark);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .blueBtn {
   background: transparent;
