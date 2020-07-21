@@ -14,7 +14,7 @@ searchForm.addEventListener("submit", function(event) {
     const value = search.value;
   
     if (value === "") {
-      showFeedback("please enter a valid search value");
+      showFeedback("Please enter a valid search value");
     } else {
       search.value = "";
       // ajax
