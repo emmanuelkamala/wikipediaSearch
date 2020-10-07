@@ -1,6 +1,6 @@
 # Project: Practicing with API - Wikipedia Search App
 
-> This is a practice project on fetching data from the API, searching data from the wikipedia website. You can query any data and the app will search from Wikipedia's database and display 10 items it found on the queried search term.
+This is a practice project on fetching data from the API, searching data from the wikipedia website. You can query any data and the app will search from Wikipedia's database and display 10 items it found on the queried search term.
 
 
 ![screenshot](./dist/img/search.png)
